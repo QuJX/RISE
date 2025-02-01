@@ -22,4 +22,4 @@
 
 ## Examples
 
-![Visualization](https://github.com/QuJX/RISE/blob/main/Figures/Chemical%20Structures.pdf)
+![Visualization](Figures/Chemical_Structures.pdf)
