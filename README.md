@@ -22,4 +22,4 @@
 
 ## Examples
 
-![Visualization](Figures/Chemical_Structures.pdf)
+[Visualization](Figures/Chemical_Structures.pdf)
