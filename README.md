@@ -22,4 +22,5 @@
 
 ## Examples
 
-[Visualization](Figures/Chemical_Structures.pdf)
+![Chemical Structures](https://github.com/user-attachments/assets/6dd8eea3-f151-49a8-aa22-a6bd65bde0ae)
+
