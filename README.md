@@ -3,8 +3,8 @@
 <div align="center">
 
 [![Paper](https://img.shields.io/badge/PDF-Paper-red.svg)](https://github.com/QuJX/RISE)
-[![Web](https://img.shields.io/badge/DeepSORVF-Web-blue.svg)](https://github.com/QuJX/RISE)
-[![Code](https://img.shields.io/badge/DeepSORVF-Code-orange.svg)](https://github.com/QuJX/RISE)
+[![Web](https://img.shields.io/badge/RISE-Web-blue.svg)](https://github.com/QuJX/RISE)
+[![Code](https://img.shields.io/badge/RISE-Code-orange.svg)](https://github.com/QuJX/RISE)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FQuJX%2FRISE&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 </div>
