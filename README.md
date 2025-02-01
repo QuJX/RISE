@@ -22,4 +22,4 @@
 
 ## Examples
 
-![Visualization]([https://user-images.githubusercontent.com/48637474/210925024-15dcbcbe-717b-47b6-ad4b-377d71141380.jpg](https://github.com/QuJX/RISE/blob/main/Figures/Chemical%20Structures.pdf))
+![Visualization](https://github.com/QuJX/RISE/blob/main/Figures/Chemical%20Structures.pdf)
