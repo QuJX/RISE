@@ -23,4 +23,7 @@
 ## Examples
 
 ![Chemical Structures](https://github.com/user-attachments/assets/6dd8eea3-f151-49a8-aa22-a6bd65bde0ae)
+![radius_reduction](https://github.com/user-attachments/assets/34030bd1-daeb-4a3b-90fd-706fa9ab1b1f)
+
+
 
