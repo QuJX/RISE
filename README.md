@@ -41,9 +41,8 @@ The official version of SEGNN can be find <a href="https://github.com/RobDHess/S
 <br />
 It is noted that the chemical properties in QM9 dataset are encoded follows 'target_attr' dict: <br />
 {0: 'mu', 1: 'alpha', 2: 'homo', 3: 'lumo', 4: 'gap', <br />
-    5: 'electronic_spatial_extent', 6: 'zpve', 7: 'energy_U0', <br />
-    8: 'energy_U', 9: 'enthalpy_H', 10: 'free_energy', 11: 'heat_capacity', <br />
-}.<br />
+5: 'electronic_spatial_extent', 6: 'zpve', 7: 'energy_U0', <br />
+8: 'energy_U', 9: 'enthalpy_H', 10: 'free_energy', 11: 'heat_capacity'}.<br />
 
 ```bash
 python main_qm9.py --explained_model_name=SchNet --target_attr=0 --epoch=200 --budget=0.5
