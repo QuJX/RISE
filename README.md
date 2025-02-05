@@ -26,7 +26,7 @@
 ![radius_reduction](https://github.com/user-attachments/assets/b68a6cff-7d8b-4d65-84e9-78d18f1ad803)
 
 ## Environment
-requirements.txt
+[Requirements.txt](requirements.txt)
 
 ## Running
 
