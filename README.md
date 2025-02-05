@@ -25,5 +25,38 @@
 ![Chemical Structures](https://github.com/user-attachments/assets/6dd8eea3-f151-49a8-aa22-a6bd65bde0ae)
 ![radius_reduction](https://github.com/user-attachments/assets/b68a6cff-7d8b-4d65-84e9-78d18f1ad803)
 
+## Environment
+requirements.txt
 
+## Running
 
+Before running the experiment, please remove the line 250 in torch_geometric.explain.explainer. 
+Because our method don't have to set any threshold to the edge_mask, and we don't need to validate the size of mask, which are kept the same as the original edge number.
+
+#### QM9
+To run the QM9 experiments, adapt explained_model_name, target_attr, epoch, budget, and checkpoint. (If running on SchNet or DimeNet, the 'checkpoint' can be ignored.)
+If you want to test the explainer on SEGNN, you need to train the SEGNN and saved the model_stat_dict firstly. 
+The official version of SEGNN can be find <a href="https://github.com/RobDHess/Steerable-E3-GNN">here</a>.
+It is noted that the chemical properties in QM9 dataset are encoded follows 'target_attr' dict:
+{
+    0: 'mu', 1: 'alpha', 2: 'homo', 3: 'lumo', 4: 'gap',
+    5: 'electronic_spatial_extent', 6: 'zpve', 7: 'energy_U0',
+    8: 'energy_U', 9: 'enthalpy_H', 10: 'free_energy', 11: 'heat_capacity',
+}.
+
+```bash
+python main_qm9.py --explained_model_name=SchNet --target_attr=0 --epoch=200 --budget=0.5
+```
+
+#### GEOM
+To run the GEOM experiments, adapt Explained_model_name, epoch, budget, and checkpoint. (Please train the backbone model on GEOM Dataset First.)
+
+```bash
+python main_geom.py --explained_model_name=SchNet --epoch=200 --budget=0.5 --checkpoint='your_checkpoint_path.pt'
+```
+
+</div>
+<p align="center"> 
+  Visitor count<br>
+  <img src="https://profile-counter.glitch.me/QuJX_RISE/count.svg" />
+</p>
