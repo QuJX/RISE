@@ -33,12 +33,14 @@ Before running the experiment, please remove the line 250 in torch_geometric.exp
 Because our method don't have to set any threshold to the edge_mask, and we don't need to validate the size of mask, which are kept the same as the original edge number. <br />
 
 #### QM9
-To run the QM9 experiments, adapt explained_model_name, target_attr, epoch, budget, and checkpoint. (If running on SchNet or DimeNet, the 'checkpoint' can be ignored.) <br />
+To run the QM9 experiments, adapt explained_model_name, target_attr, epoch, budget, and checkpoint. <br />
+(If running on SchNet or DimeNet, the 'checkpoint' can be ignored.) <br />
+<br />
 If you want to test the explainer on SEGNN, you need to train the SEGNN and saved the model_stat_dict firstly.  <br />
 The official version of SEGNN can be find <a href="https://github.com/RobDHess/Steerable-E3-GNN">here</a>. <br />
+<br />
 It is noted that the chemical properties in QM9 dataset are encoded follows 'target_attr' dict: <br />
-{ <br />
-    0: 'mu', 1: 'alpha', 2: 'homo', 3: 'lumo', 4: 'gap', <br />
+{0: 'mu', 1: 'alpha', 2: 'homo', 3: 'lumo', 4: 'gap', <br />
     5: 'electronic_spatial_extent', 6: 'zpve', 7: 'energy_U0', <br />
     8: 'energy_U', 9: 'enthalpy_H', 10: 'free_energy', 11: 'heat_capacity', <br />
 }.<br />
