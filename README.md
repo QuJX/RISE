@@ -21,11 +21,8 @@
 <hr />
 
 ## Examples
-</div>
-<p align="center"> 
 ![Chemical Structures](https://github.com/user-attachments/assets/6dd8eea3-f151-49a8-aa22-a6bd65bde0ae)
 ![radius_reduction](https://github.com/user-attachments/assets/b68a6cff-7d8b-4d65-84e9-78d18f1ad803)
-</p>
 
 ## Environment
 [Requirements.txt](requirements.txt)
