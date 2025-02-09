@@ -30,7 +30,7 @@
 ## Running
 
 Before running the experiment, please remove the line 250 in torch_geometric.explain.explainer. <br />
-Because our method don't have to set any threshold to the edge_mask, and we don't need to validate the size of mask, which are kept the same as the original edge number. <br />
+Because RISE doesn't need to set any threshold to the edge_mask, we don't need to validate the size of mask. <br />
 
 #### QM9
 To run the QM9 experiments, adapt explained_model_name, target_attr, epoch, budget, and checkpoint. <br />
