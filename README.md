@@ -12,8 +12,8 @@
 ---
 
 >**RISE: Radius of Influence based Subgraph Extraction for 3D Molecular Graph Explanation** <br>
->[Jingxiang Qu](https://tom-q.netlify.app/)<sup># </sup>, [Wenhan Gao](https://wenhangao21.github.io/)<sup># </sup>, [Jiaxing Zhang](https://tabzhangjx.github.io/), [Xufeng Liu](https://xufliu.github.io/), [Hua Wei](https://www.public.asu.edu/~hwei27/index.html), [Haibin Ling](https://www3.cs.stonybrook.edu/~hling),  [Yi Liu](https://jacoblau0513.github.io/)<sup>* </sup> <br>
->(* Corresponding Author) <br>
+>[Jingxiang Qu](https://tom-q.netlify.app/)<sup>† </sup>, [Wenhan Gao](https://wenhangao21.github.io/)<sup>† </sup>, [Jiaxing Zhang](https://tabzhangjx.github.io/), [Xufeng Liu](https://xufliu.github.io/), [Hua Wei](https://www.public.asu.edu/~hwei27/index.html), [Haibin Ling](https://www3.cs.stonybrook.edu/~hling),  [Yi Liu](https://jacoblau0513.github.io/)<sup>* </sup> <br>
+>(† Corresponding Author) <br>
 >(# Equal Contribution) <br> 
 >In Submission <br>
 
