@@ -26,7 +26,7 @@ def parse_arguments():
     parser.add_argument('--target_attr', type=int, default=3, help='Target attribute index')
     parser.add_argument('--epoch', type=int, default=10, help='Number of training epochs')
     parser.add_argument('--budget', type=float, default=0.15, help='Budget for explanation')
-    parser.add_argument('--checkpoint', type=str, default='saved_models/', help='Budget for explanation')
+    parser.add_argument('--checkpoint', type=str, default='saved_models/', help='Model checkpoint path')
     return parser.parse_args()
 
 def get_explainer(model_name, setting, epochs):
