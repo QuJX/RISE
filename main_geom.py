@@ -58,8 +58,6 @@ def main():
     
     for i, graph in enumerate(tqdm(loader, desc=f'RISE GEO energy on {args.explained_model_name}')):
         graph = graph.to(device)
-        if i > 2:
-            break
         if args.explained_model_name == 'SEGNN':
             graph = processing_data(graph, unique_atom_types=setting.unique_atom_types, radius=setting.radius, attr_irreps=setting.attr_irreps)
             graph.mean_mad = torch.Tensor([0, 1]).to(device)
