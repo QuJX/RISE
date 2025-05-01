@@ -71,8 +71,6 @@ def main():
 
     for i, graph in enumerate(tqdm(loader, desc=f'{qm9_target_dict[args.target_attr]} on {args.explained_model_name}')):
         graph = graph.to(device)
-        if i > 2:
-            break
         if args.explained_model_name != 'SEGNN':
             explanation = explainer(graph.z, graph.pos, target=None)
         else:
