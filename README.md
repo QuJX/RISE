@@ -29,7 +29,7 @@
 
 ## Running
 
-Before running the experiment, please remove the line 250 in torch_geometric.explain.explainer. <br />
+Before running the experiment, please remove/comment the line 250 in torch_geometric.explain.explainer. <br />
 Because RISE doesn't need to set any threshold to the edge_mask, we don't need to validate the size of mask. <br />
 
 #### QM9
