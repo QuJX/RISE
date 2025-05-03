@@ -1,4 +1,4 @@
-# <p align=center> [In Submission] Radius of Influence based Subgraph Extraction for 3D Molecular Graph Explanation</p>
+# <p align=center> [ICML 2025] RISE: Radius of Influence based Subgraph Extraction for 3D Molecular Graph Explanation</p>
 
 <div align="center">
 
